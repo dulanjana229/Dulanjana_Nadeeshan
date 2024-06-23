@@ -107,7 +107,8 @@
     margin: 0 5%;
   }
   .section_pic-container {
-    
+    width: 275px;
+    height: 275px;
     margin: 0 auto 2rem;
   }
   .about-container{
@@ -185,7 +186,9 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section_pic-container{    
+  .section_pic-container{
+    width: auto;
+    height: auto;
     justify-content: center;
   }
 
