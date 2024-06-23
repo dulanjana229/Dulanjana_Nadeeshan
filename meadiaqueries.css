@@ -210,7 +210,7 @@
       height: auto;
     }
     #profile {
-      height: auto;
+      height: 300vh;
       margin-bottom: 0;
     }
     .about-details-container{
@@ -248,7 +248,7 @@
     }
     .section_pic-container{
       width: auto;
-      height: 50px;
+      height: 150px;
       justify-content: center;
     }
     .section_text_p2{
