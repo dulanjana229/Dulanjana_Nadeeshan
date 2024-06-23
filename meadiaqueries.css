@@ -181,7 +181,7 @@
     }
     .section_pic-container{
       width: auto;
-      height: 46vh;
+      height: 40vh;
       justify-content: center;
     }
     .section_text_p2{
@@ -247,8 +247,8 @@
       text-align: center;
     }
     .section_pic-container{
-      width: 150px;
-      height: 150px;
+      width: auto;
+      height: 30vh;
       justify-content: center;
     }
     .section_text_p2{
