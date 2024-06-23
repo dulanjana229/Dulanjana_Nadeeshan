@@ -186,11 +186,11 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section_pic-container{
+  /* .section_pic-container{
     width: auto;
-    height: 36vh;
+    height: auto;
     justify-content: center;
-  }
+  } */
 
   .section_text_p2 {
     font-size: 1.25rem;
