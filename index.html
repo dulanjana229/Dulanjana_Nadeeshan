@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dulanjana Nadeeshan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="meadiaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">D Nadeeshan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">D Nadeeshan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assest/pro_img.png" alt="D Nadeeshan pro pic" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Dulanjana Nadeeshan</h1>
+        <p class="section_text_p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assest/CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assest/linkedin2.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href = 'http://www.linkedin.com/in/dulanjana-nadeeshan-b32809274'"
+          />
+          <img
+            src="./assest/Github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href = 'https://github.com/dulanjana229'"
+          />
+        </div>
+      </div>
+    </section>
+    <br />
+    <section id="about">
+      <p class="section_text_p1">Get to know more</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assest/about pc2.png"
+            alt="my picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container">
+              <img
+                src="./assest/ex48.png"
+                alt="Experience icon"
+                class="icon-exp"
+                style="width: 25px; height: 25px"
+              />
+              <h3>Experience</h3>
+              <p>
+                2+ years <br />
+                Frontend Development
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assest/edunew.png"
+                alt="Education icon"
+                class="icon-edu"
+                style="width: 25px; height: 25px"
+              />
+              <h3>Education</h3>
+              <p>
+                Bachelor of Information Technology <br />
+                University of Moaratuwa
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello! I'm Dulanjana Nadeeshan, a passionate software engineer
+              specializing in web development with expertise in HTML, CSS,
+              JavaScript, and modern frameworks. I thrive on challenges and
+              continuously seek to learn and implement the latest technologies
+              to create user-friendly, responsive, and efficient solutions.
+              Explore my portfolio to see my work, and feel free to reach out
+              for any collaboration opportunities!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assest/down arrow.png"
+        alt="Arrow icon"
+        class="arrow"
+        onclick="location.href='/#skills'"
+      />
+    </section>
+    <br />
+    <section id="skills">
+      <p class="section_text_p1">Explore My</p>
+      <h3 class="title">Skills</h3>
+      <div class="skills-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="skill-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assest/check21.png"
+                  alt="Skill Icons"
+                  style="width: 35px; height: 35px"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assest/check21.png"
+                  alt="Skill Icons"
+                  style="width: 35px; height: 35px"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assest/check21.png"
+                  alt="Skill Icons"
+                  style="width: 35px; height: 35px"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skill-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assest/check21.png"
+                  alt="Skill Icons"
+                  style="width: 35px; height: 35px"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assest/check21.png"
+                  alt="Skill Icons"
+                  style="width: 35px; height: 35px"
+                  class="icon"
+                />
+                <div>
+                  <h3>
+                    Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assest/check21.png"
+                  alt="Skill Icons"
+                  style="width: 35px; height: 35px"
+                  class="icon"
+                />
+                <div>
+                  <h3>C# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assest/down arrow.png"
+        alt="Arrow icon"
+        class="arrow"
+        onclick="location.href='/#projects'"
+      />
+    </section>
+    <br />
+    <section id="projects">
+      <p class="section_text_p1">Brows My Recent</p>
+      <h2 class="title">Projects</h2>
+      <div class="skills-details-container">
+        <div class="about-container project-container">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assest/Project 1.png"
+                alt="project 1"
+                class="project-img"
+              />
+              <h2 class="project-sub-title">Portfolio Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dulanjana229'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='http://127.0.0.1:5500/index.html'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assest/Untitled-1.png"
+                alt="project 1"
+                class="project-img"
+              />
+              <h2 class="project-sub-title">
+                &nbsp; &nbsp; Weather Casting &nbsp; &nbsp; Application
+              </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dulanjana229'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dulanjana229'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assest/gym.png" alt="project 1" class="project-img" />
+              <h2 class="project-sub-title">Gym Management System</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dulanjana229'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/dulanjana229'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assest/down arrow.png"
+        alt="Arrow icon"
+        class="arrow"
+        onclick="location.href='/#contact'"
+      />
+    </section>    
+    <br />
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assest/emailcircle.png" alt="email icon" class="icon_mail" />
+          <p class="mail_1">
+            <a href="mailto:" class="mail">dulanjananadeeshananuraweera@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assest/LinkedIn.png" alt="email icon" class="icon_con" />
+          <p class="linkedin">
+            <a href="https://www.linkedin.com/in/dulanjana-nadeeshan-b32809274"
+              >LinkedIn
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 D Nadeeshan. All Right Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,264 @@
+@media screen and (max-width: 1500px) {
+    #profile {
+      height: 70vh;
+    }
+    .about-container,
+    .project-container {
+      flex-wrap: wrap;
+    }
+  
+    footer {
+      height: 45vh;
+    }
+  
+    footer nav {
+      height: 30vh;
+    }
+  
+    #contact {
+      height: 40vh;
+    }
+    #skills {
+      height: 90vh;
+    }
+  
+    #about {
+      height: 100vh;
+    }
+  
+    #profile {
+      height: 70vh;
+      margin-bottom: 0;
+    }
+    
+  }
+  
+  @media screen and (max-width: 1400px) {
+    #profile {
+      height: 80vh;
+    }
+    .about-container,
+    .project-container {
+      flex-wrap: wrap;
+    }
+    
+    #projects {
+      height: 220vh;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+  
+    footer {
+      height: 50vh;
+    }
+  
+    footer nav {
+      height: 40vh;
+    }
+  
+    #contact {
+      height: 50vh;
+    }
+    #skills {
+      height: 80vh;
+    }
+  
+    #about {
+      height: 140vh;
+    }
+    .about-details-container {
+      height: 80vh;
+    }
+  
+    #profile {
+      height: 110vh;
+      margin-bottom: 0;
+    }
+    #projects {
+      height: 300vh;
+    }
+  
+    #hamburger-nav {
+      display: flex;
+      margin: 0 0 0 5rem;
+    }
+  
+    #skill,
+    .skill-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+  
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section_pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    #skills {
+      height: 90vh;
+    }
+  
+    #projects {
+      height: auto;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 0.8rem;
+    }
+  
+    .nav-links li a {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: auto;
+    }
+    #about{
+      height: auto;
+    }
+    #skills{
+      height: auto;
+    }
+    #projects{
+      height: auto;
+    }
+    #profile {
+      height: 100vh;
+      margin-bottom: 0;
+    }  
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .skill-sub-title{
+      font-size: 1.25rem;
+    }
+    .logo{
+      font-size: 1.5rem;
+    }
+    .nav-links{
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section_pic-container{
+      width: auto;
+      height: 46vh;
+      justify-content: center;
+    }
+    .section_text_p2{
+      font-size: 1.25rem;
+    }
+    .title{
+      font-size: 2rem;
+    }
+    .text-container{
+      text-align: justify;
+    }
+  }
+  
+  @media screen and (max-width: 400px){
+      #contact,
+    footer {
+      height: auto;
+    }
+    #about{
+      height: auto;
+    }
+    #skills{
+      height: auto;
+    }
+    #projects{
+      height: auto;
+    }
+    #profile {
+      height: auto;
+      margin-bottom: 0;
+    }
+    .about-details-container{
+      height: auto;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 0.7rem;
+    }
+    .skill-sub-title{
+      font-size: 1.25rem;
+    }
+    .logo{
+      font-size: 1.5rem;
+    }
+    .nav-links{
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section_pic-container{
+      width: auto;
+      height: 46vh;
+      justify-content: center;
+    }
+    .section_text_p2{
+      font-size: 1.25rem;
+    }
+    .title{
+      font-size: 2rem;
+    }
+    .text-container{
+      text-align: justify;
+    }
+  }
+  
