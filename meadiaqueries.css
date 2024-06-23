@@ -179,11 +179,7 @@
       gap: 0.5rem;
       text-align: center;
     }
-    .section_pic-container{
-      width: auto;
-      height: 46vh;
-      justify-content: center;
-    }
+    
     .section_text_p2{
       font-size: 1.25rem;
     }
@@ -248,8 +244,8 @@
     }
     .section_pic-container{
       width: auto;
-      height: 150px;
-      justify-content: center;
+      height: 250px;
+      justify-content: left;
     }
     .section_text_p2{
       font-size: 1.25rem;
