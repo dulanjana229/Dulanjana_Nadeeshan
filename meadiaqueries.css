@@ -187,10 +187,11 @@
     text-align: center;
   }
   .section_pic-container{
-    width: 20rem;
-    height: 20rem;
+    width: auto;
+    height: 10rem;
     justify-content: center;
-    margin-right: -6%;
+    margin-right: -10%;
+    
   }
 
   .section_text_p2 {
