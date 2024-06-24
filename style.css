@@ -174,7 +174,8 @@ section {
 .section_pic-container {
   display: flex;
   height: 400px;
-  width: 400px;  
+  width: 400px;
+  background-size: cover;    
 }
 
 .section_text {
