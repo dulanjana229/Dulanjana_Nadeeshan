@@ -171,11 +171,19 @@ section {
   height: 80vh;
 }
 
-.section_pic-container {
+.section_pic-container .pro_pic{
   display: flex;
   height: 400px;
-  width: 400px;
-  background-size: cover;    
+  width: 350px;
+  background-size: cover;   
+  margin-top: 3.5rem; 
+}
+.about-pic {
+  display: flex;
+  height: 400px;
+  width: 350px;
+  background-size: cover;   
+  margin-top: 3.5rem; 
 }
 
 .section_text {
